@@ -6,11 +6,11 @@ namespace Plugs
 {
     public static class Jumper
     {
-        [PlugMethod(Assembler = typeof(CallerPlug))]
+        [PlugMethod(Assembler = typeof(JumpPlug))]
         public static void Jump() => throw null;
     }
 
-    public class CallerPlug : AssemblerMethod
+    public class JumpPlug : AssemblerMethod
     {
         public override void AssembleNew(Assembler aAssembler, object aMethodInfo)
         {

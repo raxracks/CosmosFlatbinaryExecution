@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosFlatbinaryExecution", "CosmosFlatbinaryExecution\CosmosFlatbinaryExecution.csproj", "{672E8A8A-8235-4FB9-AF8C-BEE9D6C77A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugs", "Plugs\Plugs.csproj", "{61B86C68-EB33-4AFE-ABE7-AEE0BE25B561}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{672E8A8A-8235-4FB9-AF8C-BEE9D6C77A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672E8A8A-8235-4FB9-AF8C-BEE9D6C77A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672E8A8A-8235-4FB9-AF8C-BEE9D6C77A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672E8A8A-8235-4FB9-AF8C-BEE9D6C77A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B86C68-EB33-4AFE-ABE7-AEE0BE25B561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B86C68-EB33-4AFE-ABE7-AEE0BE25B561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B86C68-EB33-4AFE-ABE7-AEE0BE25B561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B86C68-EB33-4AFE-ABE7-AEE0BE25B561}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E402D9C2-9F8C-4CFD-B3D1-BE3E21EB7D9D}
+	EndGlobalSection
+EndGlobal
